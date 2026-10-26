@@ -631,7 +631,7 @@ a:hover {
   }
 
   var DATA = JSON.parse(document.getElementById("wheel-data").textContent);
-  var META = DATA.meta || { name: "A Hygge Hearth Witch's Wheel of the Year", timezone: DEFAULT_TZ };
+  var META = DATA.meta || { name: "Zodiac DatN Calendar", timezone: DEFAULT_TZ };
   var EVENTS = normalize(DATA.events);
   var liveStatus = {
     state: "snapshot",
@@ -1178,12 +1178,7 @@ a:hover {
       el("p", {
         class: "lede",
         text:
-          "In summer 2026 I decided I wanted a calendar of all the daily correspondences, witch's wheel of the year sabbats (both Astrological and Celtic Calendar), feasts, and major astrology dates (like sun/zodiac signs, new, quarter and full moons and retrogrades) that I utilize in my practice. I'm just someone who likes witchin' around the house and no real expert, so the calendar is linked to the sources from where I gathered my information.",
-      }),
-      el("p", {
-        class: "lede",
-        text:
-          "I figured if I wanted that calendar, someone else may, too so I shared it with some other witchy folks online. Using the same logic, someone asked for an app. So the Hygge Hearth Witch's Wheel of the Year was created ✨",
+          "The calendar of the livestream zodiac dating platform that matches to people aligned by their zodiac signs and interests.",
       }),
     ]);
   }
