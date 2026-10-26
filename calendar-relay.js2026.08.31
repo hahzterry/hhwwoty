@@ -1,5 +1,5 @@
 /**
- * A Hygge Hearth Witch's Wheel of the Year — calendar relay.
+ * Zodiac DatN Calendar — calendar relay.
  * Read-only. Returns the calendar's events as JSON for the web app.
  */
 var CALENDAR_ID =

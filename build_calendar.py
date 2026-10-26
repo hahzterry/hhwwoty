@@ -339,7 +339,7 @@ def main():
 
     data = {
         "meta": {
-            "name": "A Hygge Hearth Witch's Wheel of the Year",
+            "name": "Zodiac DatN Calendar",
             "timezone": DEFAULT_TZ,
             "syncedAt": datetime.now().isoformat(),
             "source": ICS_URL,
